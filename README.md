@@ -91,8 +91,8 @@ erDiagram
 
 ### Screenshots of running the project locally
 ![Employee performance](image1.png)
-![Employee](image1-2.png)
-![Team performance](image2.png)
-![Team](image2-2.png)
+![Employee](image2.png)
+![Team performance](image3.png)
+![Team](image4.png)
 
 
