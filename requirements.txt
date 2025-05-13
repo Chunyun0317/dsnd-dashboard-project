@@ -1,0 +1,21 @@
+# === Core runtime dependencies ===
+fastapi==0.115.12           # Web framework for your dashboard
+uvicorn==0.34.2             # ASGI server
+python-fasthtml==0.8.0      # FastHTML UI components
+pandas==2.2.3               # Data manipulation
+matplotlib==3.9.2           # Plotting
+scikit-learn==1.5.2         # ML model
+sqlite-minutils==4.0.3      # SQLite helpers 
+python-dotenv==1.1.0        # .env support
+python-multipart==0.0.20    # Form parsing
+starlette==0.46.2           # FastAPI dependency
+
+# === Editable install of local package ===
+-e ./python-package/employee_events
+# === Dev & testing ===
+pytest==8.3.5               # Test runner
+flake8==7.2.0               # Linting
+black==24.3.0               # (optional) code formatting
+mccabe==0.7.0               # flake8 plugin
+pycodestyle==2.13.0         # flake8 plugin
+pyflakes==3.3.2             # flake8 plugin
